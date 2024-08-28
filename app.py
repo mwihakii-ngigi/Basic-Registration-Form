@@ -15,12 +15,16 @@ class RegistrationApp(App):
 
         email_label = Label(text="Email:", font_size=18)
 
-        passwod_label = Label(text="Password:", font_size=18)
+        password_label = Label(text="Password:", font_size=18)
 
         confirm_label = Label(text="Confirm Password:", font_size=18)
 
 
         layout.add_widget(head_label)
+        layout.add_widget(name_label)
+        layout.add_widget(email_label)
+        layout.add_widget(password_label)
+        layout.add_widget(confirm_label)
         return layout
     
 
